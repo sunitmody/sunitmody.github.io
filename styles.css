@@ -33,6 +33,8 @@ header {
     border: 4px solid white;
     border-radius: 50%;
     display: inline-block;
+    width: 200px;
+    height: 200px;
 }
 
 .centered {
@@ -54,4 +56,38 @@ header {
     clear: both;
 }
 
+.display-container {
+    position: relative;
+    text-align: center;
+}
 
+.img-slides {
+    border: 4px solid white;
+    margin: 4%;
+    border-radius: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+}
+
+.display-left {
+    position: absolute;
+    left: 40%;
+}
+
+.display-right {
+    position: absolute;
+    right: 40%;
+}
+
+.current-image-number {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
