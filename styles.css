@@ -15,7 +15,14 @@ body {
 
 header {
     background: white;
+}
+
+header > h1 {
     text-align: center;
+}
+
+.website-info {
+    text-align: left;
 }
 
 .row {
