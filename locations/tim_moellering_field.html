@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tim Moellering Field</title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html">HOME</a>
+            <h1>Tim Moellering Field</h1>
+        </header>
+        <div class="display-container">
+            <img class="img-slides" src="../images/tim_moellering_field/tim_moellering_field_1.jpg" alt="Tim Moellering Field">
+            <img class="img-slides" src="../images/tim_moellering_field/tim_moellering_field_2.jpg" alt="Tim Moellering Field">
+            <img class="img-slides" src="../images/tim_moellering_field/tim_moellering_field_3.jpg" alt="Tim Moellering Field">
+            <img class="img-slides" src="../images/tim_moellering_field/tim_moellering_field_4.jpg" alt="Tim Moellering Field">
+            <img class="img-slides" src="../images/tim_moellering_field/tim_moellering_field_5.jpg" alt="Tim Moellering Field">
+
+            <button class="display-left" onclick="changeIndex(-1)">&#10094;</button>
+            <button class="display-right" onclick="changeIndex(1)">&#10095;</button>
+            <div class = "current-image-number">
+                <span id="img-number">1</span><span> of </span><span id="img-total">#</span>
+            </div>
+        </div>
+        <script src="../slide_show.js" charset="UTF-8"></script>
+    </body>
+</html>
