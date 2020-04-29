@@ -1,4 +1,4 @@
-//image number variable
+//current image number variable
 let imgNumber = document.getElementById("img-number");
 
 //total images variable
@@ -7,7 +7,7 @@ let totalImages = document.getElementById("img-total");
 //initialize slideIndex variable
 let slideIndex = 0;
 
-//create array of the images
+//array of images variable 
 let imgArr = document.getElementsByClassName("img-slides");
 
 //set image total number to length of arr.
